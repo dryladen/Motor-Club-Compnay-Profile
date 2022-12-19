@@ -1,9 +1,9 @@
 <!-- Sidebar -->
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
   <!-- Sidebar - Brand -->
-  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
+  <a class="sidebar-brand d-flex align-items-center justify-content-center py-2" href="#">
     <div class="sidebar-brand-icon">
-      <i class="fa-solid fa-motorcycle"></i>
+      <img class="rounded-circle" height="65px" src="<?= base_url('assets') ?>/img/htci-logo.jpg" alt="">
     </div>
   </a>
   <!-- Divider -->
