@@ -9,22 +9,22 @@
   <!-- Divider -->
   <hr class="sidebar-divider my-0">
   <!-- Nav Item - Dashboard -->
-  <li class="nav-item active">
-    <a class="nav-link" href="#">
+  <li class="nav-item <?php echo $isActive == 'Home' ? 'active':''; ?>">
+    <a class="nav-link" href="<?= site_url('company') ?>">
       <i class="fa-solid fa-house"></i>
       <span>Home</span></a>
   </li>
-  <li class="nav-item">
+  <li class="nav-item <?php echo $isActive == 'Artikel' ? 'active':''; ?>">
     <a class="nav-link" href="#">
       <i class="fa-sharp fa-solid fa-scroll"></i>
       <span>Artikel</span></a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">
+  <li class="nav-item <?php echo $isActive == 'Galeri' ? 'active':''; ?>">
+    <a class="nav-link" href="<?= site_url('company/gallery') ?>">
       <i class="fa-solid fa-image"></i>
       <span>Galeri</span></a>
   </li>
-  <li class="nav-item">
+  <li class="nav-item <?php echo $isActive == 'Klien Kami' ? 'active':''; ?>">
     <a class="nav-link" href="#">
       <i class="fa-solid fa-user-group"></i>
       <span>Klien Kami</span></a>
