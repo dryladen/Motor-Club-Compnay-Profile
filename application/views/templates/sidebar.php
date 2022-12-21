@@ -1,9 +1,9 @@
 <!-- Sidebar -->
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-primary sidebar sidebar-dark accordion" id="accordionSidebar">
   <!-- Sidebar - Brand -->
-  <a class="sidebar-brand d-flex align-items-center justify-content-center py-2" href="#">
+  <a class="sidebar-brand d-flex align-items-center justify-content-center py-2" href="<?= site_url('company') ?>">
     <div class="sidebar-brand-icon">
-      <img class="rounded-circle" height="65px" src="<?= base_url('assets') ?>/img/htci-logo.jpg" alt="">
+      <img class="rounded-circle" height="40px" src="<?= base_url('assets') ?>/img/logo.png" alt="">
     </div>
   </a>
   <!-- Divider -->
@@ -15,32 +15,32 @@
       <span>Home</span></a>
   </li>
   <li class="nav-item <?php echo $isActive == 'Artikel' ? 'active':''; ?>">
-    <a class="nav-link" href="#">
+    <a class="nav-link" href="<?= site_url('company/artikel') ?>">
       <i class="fa-sharp fa-solid fa-scroll"></i>
       <span>Artikel</span></a>
   </li>
   <li class="nav-item <?php echo $isActive == 'Galeri' ? 'active':''; ?>">
-    <a class="nav-link" href="<?= site_url('company/gallery') ?>">
+    <a class="nav-link" href="<?= site_url('company/galeri') ?>">
       <i class="fa-solid fa-image"></i>
       <span>Galeri</span></a>
   </li>
   <li class="nav-item <?php echo $isActive == 'Klien Kami' ? 'active':''; ?>">
-    <a class="nav-link" href="#">
+    <a class="nav-link" href="<?= site_url('company/klien') ?>">
       <i class="fa-solid fa-user-group"></i>
       <span>Klien Kami</span></a>
   </li>
   <!-- Divider -->
   <hr class="sidebar-divider">
   <!-- Nav Item - Pages Collapse Menu -->
-  <li class="nav-item">
+  <li class="nav-item <?php echo $isActive == 'Login' ? 'active':''; ?>">
     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
       <i class="fa-sharp fa-solid fa-arrow-right-to-bracket"></i>
       <span>Login</span>
     </a>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
       <div class="bg-white py-2 collapse-inner rounded">
-        <a class="collapse-item" href="buttons.html">Masuk</a>
-        <a class="collapse-item" href="cards.html">Daftar</a>
+        <a class="collapse-item" href="<?= site_url('company/login') ?>">Masuk</a>
+        <a class="collapse-item" href="<?= site_url('company/register') ?>">Daftar</a>
       </div>
     </div>
   </li>
