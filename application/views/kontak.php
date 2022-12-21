@@ -21,36 +21,34 @@
       <div class="col-lg-12">
         <ul class="none">
           <li class="list mr-xl-5 mr-4 mb-3">
-              <div class="d-flex align-items-center">
-                  <i class="ti-location-pin text-primary icon-md mr-2"></i>
-                  <div class="text-left">
-                      <h6 class="mb-0">Alamat</h6>
-                      <p class="mb-0">Jl. A. Natasukarya No.30 Subang, Jawa Barat. 41214</p>
-                  </div>
+            <div class="d-flex align-items-center">
+            <i class="fa-solid fa-location-dot"></i>
+              <div class="text-left pl-2">
+                <h6 class="mb-0">Alamat</h6>
+                <p class="mb-0">Jl. A. Natasukarya No.30 Subang, Jawa Barat. 41214</p>
               </div>
+            </div>
           </li>
           <li class="list mr-xl-5 mr-4 mb-3">
-              <div class="d-flex align-items-center">
-                  <i class="ti-angle-right text-primary icon-md mr-2"></i>
-                  <div class="text-left">
-                      <h6 class="mb-0">No Telpon</h6>
-                      <p class="mb-0">+62 821 1010 2004</p>
-                  </div>
+            <div class="d-flex align-items-center">
+            <i class="fa-solid fa-phone"></i>
+              <div class="text-left pl-2">
+                <h6 class="mb-0">No Telpon</h6>
+                <p class="mb-0">+62 821 1010 2004</p>
               </div>
+            </div>
           </li>
           <li class="list mr-xl-5 mr-4 mb-3">
-              <div class="d-flex align-items-center">
-                  <i class="ti-email text-primary icon-md mr-2"></i>
-                  <div class="text-left">
-                      <h6 class="mb-0">Email</h6>
-                      <p class="mb-0">info@tiger-club.or.id</p>
-                  </div>
+            <div class="d-flex align-items-center">
+              <i class="fa-solid fa-envelope"></i>
+              <div class="text-left pl-2">
+                <h6 class="mb-0">Email</h6>
+                <p class="mb-0">info@tiger-club.or.id</p>
               </div>
+            </div>
           </li>
-      </ul>
+        </ul>
       </div>
     </div>
   </div>
 </section>
-
-
