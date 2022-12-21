@@ -1,7 +1,7 @@
 <!-- Sidebar -->
 <ul class="navbar-nav bg-primary sidebar sidebar-dark accordion" id="accordionSidebar">
   <!-- Sidebar - Brand -->
-  <a class="sidebar-brand d-flex align-items-center justify-content-center py-2" href="<?= site_url('company') ?>">
+  <a class="sidebar-brand bg-white d-flex align-items-center justify-content-center py-2" href="<?= site_url('company') ?>">
     <div class="sidebar-brand-icon">
       <img class="rounded-circle" height="40px" src="<?= base_url('assets') ?>/img/logo.png" alt="">
     </div>
